@@ -5,8 +5,9 @@ class OpenjdkAT11 < Formula
 
   version "11.0.2"
   if OS.mac?
-    url "https://java.com/"
-  else
+    url "https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_osx-x64_bin.tar.gz"
+    sha256 "f365750d4be6111be8a62feda24e265d97536712bc51783162982b8ad96a70ee"
+  elsif OS.linux?
     url "https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz"
     sha256 "99be79935354f5c0df1ad293620ea36d13f48ec3ea870c838f20c504c9668b57"
   end
