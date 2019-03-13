@@ -12,7 +12,7 @@ class AdoptopenjdkAT11 < Formula
     sha256 "d02089d834f7702ac1a9776d8d0d13ee174d0656cf036c6b68b9ffb71a6f610e"
   end
 
-  depends_on :linux
+  #depends_on :linux
 
   def install
     prefix.install Dir["*"]
