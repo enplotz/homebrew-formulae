@@ -25,7 +25,7 @@ class Dstat < Formula
   def caveats
     <<~EOS
       - Install additional plugins to 
-        #{HOMEBREW_PREFIX}/bin/plugins/
+        #{prefix}/bin/plugins/
 
       - Some plugins depend on /proc or 
         other paths being accessible
